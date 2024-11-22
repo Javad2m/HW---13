@@ -38,6 +38,7 @@ public class UserConfig : IEntityTypeConfiguration<User>
               .WithOne(b => b.User)
               .HasForeignKey(b => b.UserID)
               .OnDelete(DeleteBehavior.SetNull);
+
     }
 
 }

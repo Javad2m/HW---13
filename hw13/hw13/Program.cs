@@ -182,7 +182,8 @@ void UserMenu()
                 }
                 Console.WriteLine("Pls Enter The Book ID");
                 int idb = Convert.ToInt32(Console.ReadLine());
-                if (idb > boks.Count)
+                bool iiq = boks.Any(b => b.Id == idb);
+                if (!iiq)
                 {
                     Console.WriteLine("The entered ID is not correct.");
                     Console.ReadKey();
