@@ -143,7 +143,7 @@ void UserMenu()
         Console.WriteLine("1.Borrowing a book");
         Console.WriteLine("2.Returning a book");
         Console.WriteLine("3.View the list of borrowed books");
-        Console.WriteLine("3.View the list of borrowed books");
+        Console.WriteLine("4.View all library books");
         Console.WriteLine("5.Log out of account");
 
         if (userServices.EndTime(InMemoryDB.CurrentUser.Id) < 0)
@@ -182,7 +182,7 @@ void UserMenu()
                 }
                 Console.WriteLine("Pls Enter The Book ID");
                 int idb = Convert.ToInt32(Console.ReadLine());
-                if (idb > boks.Count || idb < boks.Count)
+                if (idb > boks.Count)
                 {
                     Console.WriteLine("The entered ID is not correct.");
                     Console.ReadKey();
@@ -246,6 +246,8 @@ void UserMenu()
                     foreach (var b in shList)
                     {
                         Console.WriteLine($"ID: {b.Id} - Name: {b.Name} - Author: {b.Author}");
+                        Console.ReadKey();
+                        UserMenu();
                     }
                 }
 
@@ -264,6 +266,8 @@ void UserMenu()
                     {
                         Console.WriteLine($"ID: {b.Id} - Name: {b.Name} - Author: {b.Author}");
                     }
+                    Console.ReadKey();
+                    UserMenu();
                 }
                 break;
 
@@ -357,7 +361,7 @@ void AdminMenu()
                 }
                 Console.WriteLine("Pls Enter The User ID");
                 int input = Convert.ToInt32(Console.ReadLine());
-                bool isTr = los.Any(x=>x.Id == input);
+                bool isTr = los.Any(x => x.Id == input);
                 if (!isTr)
                 {
                     Console.WriteLine("The entered ID is not correct");

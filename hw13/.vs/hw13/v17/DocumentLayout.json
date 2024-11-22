@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E511BEAB-74E7-4451-A400-71FF1C61564E}|hw13\\hw13.csproj|c:\\users\\notebook\\desktop\\hw - 13\\hw13\\hw13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E511BEAB-74E7-4451-A400-71FF1C61564E}|hw13\\hw13.csproj|solutionrelative:hw13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E511BEAB-74E7-4451-A400-71FF1C61564E}|hw13\\hw13.csproj|c:\\users\\notebook\\desktop\\hw - 13\\hw13\\hw13\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E511BEAB-74E7-4451-A400-71FF1C61564E}|hw13\\hw13.csproj|solutionrelative:hw13\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E511BEAB-74E7-4451-A400-71FF1C61564E}|hw13\\hw13.csproj|c:\\users\\notebook\\desktop\\hw - 13\\hw13\\hw13\\configuration\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E511BEAB-74E7-4451-A400-71FF1C61564E}|hw13\\hw13.csproj|solutionrelative:hw13\\configuration\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\hw13\\Program.cs",
+              "RelativeDocumentMoniker": "hw13\\Program.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\hw13\\Program.cs",
+              "RelativeToolTip": "hw13\\Program.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAgwLEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:18:27.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\hw13\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "hw13\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\hw13\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "hw13\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:17:05.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\hw13\\Configuration\\UserConfig.cs",
+              "RelativeDocumentMoniker": "hw13\\Configuration\\UserConfig.cs",
+              "ToolTip": "C:\\Users\\Notebook\\Desktop\\HW - 13\\hw13\\hw13\\Configuration\\UserConfig.cs",
+              "RelativeToolTip": "hw13\\Configuration\\UserConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:10:12.598Z",
+              "EditorCaption": ""
             }
           ]
         },

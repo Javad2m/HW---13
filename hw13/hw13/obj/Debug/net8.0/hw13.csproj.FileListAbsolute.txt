@@ -128,3 +128,4 @@ C:\Users\Notebook\Desktop\HW - 13\hw13\hw13\obj\Debug\net8.0\refint\hw13.dll
 C:\Users\Notebook\Desktop\HW - 13\hw13\hw13\obj\Debug\net8.0\hw13.pdb
 C:\Users\Notebook\Desktop\HW - 13\hw13\hw13\obj\Debug\net8.0\hw13.genruntimeconfig.cache
 C:\Users\Notebook\Desktop\HW - 13\hw13\hw13\obj\Debug\net8.0\ref\hw13.dll
+C:\Users\Notebook\Desktop\HW - 13\hw13\hw13\obj\Debug\net8.0\hw13.sourcelink.json

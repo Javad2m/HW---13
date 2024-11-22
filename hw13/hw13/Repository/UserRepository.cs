@@ -59,7 +59,7 @@ public class UserRepository : IUserRepository
     public void Update(User user, int days)
     {
         var users = _appContext.Users.FirstOrDefault(p => p.Id == user.Id);
-        users.BorrowLimitEndDate = DateTime.Now.AddDays(days);
+        users.BorrowLimitEndDate = users.BorrowLimitEndDate.AddDays(days);
         _appContext.SaveChanges();
     }
 }
